@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/logo_1"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Nome"
+        app:met_textColorHint="@color/hint_color"
+        app:met_textColor="#FFF"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        app:met_floatingLabel="normal" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_cognome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Cognome"
+        app:met_textColorHint="@color/hint_color"
+        app:met_textColor="#FFF"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        app:met_floatingLabel="normal" />
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_mail"
+        app:met_textColorHint="@color/hint_color"
+        app:met_textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Indirizzo email"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        app:met_floatingLabel="normal" />
+
+    <!--
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:met_floatingLabel="normal" />
+        -->
+
+</LinearLayout>
